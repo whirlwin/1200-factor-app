@@ -36,3 +36,6 @@ Treat logs as event streams
 
 # 12. Admin processes
 Run admin/management tasks as one-off processes
+
+# 13. Collect metrics
+Determine which key metrics your domain is concerned with
