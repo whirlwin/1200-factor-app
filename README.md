@@ -39,3 +39,6 @@ Run admin/management tasks as one-off processes
 
 # 13. Collect metrics
 Determine which key metrics your domain is concerned with
+
+# 14. Deploy safely
+Deploy new critical functionality behind feature toggles
