@@ -40,8 +40,14 @@ Run admin/management tasks as one-off processes
 # 13. Collect metrics
 Determine which key metrics your domain is concerned with
 
-# 14. Deploy safely
-Deploy new critical functionality behind feature toggles
+# 14. Feature toggles
+Deploy critical functionality behind feature toggles
 
 # 15. Minimal local config
 Minimize the local development machine config needed to run the app
+
+# 16. Login providers
+Use a login provider that your target audience is a member of
+
+# 17. Stateless 
+Aim to create stateless applications and services
