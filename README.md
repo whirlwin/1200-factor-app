@@ -42,3 +42,6 @@ Determine which key metrics your domain is concerned with
 
 # 14. Deploy safely
 Deploy new critical functionality behind feature toggles
+
+# 15. Minimal local config
+Minimize the local development machine config needed to run the app
