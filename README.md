@@ -31,6 +31,9 @@ Maximize robustness with fast startup and graceful shutdown
 # 10. Dev/prod parity
 Keep development, staging, and production as similar as possible
 
+- Nothing is harder than to accomodate for N apps in M environments
+- Automate the configuration of environments to avoid snowflakes
+
 # 11. Logs
 Treat logs as event streams
 
