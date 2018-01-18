@@ -34,6 +34,9 @@ Keep development, staging, and production as similar as possible
 # 11. Logs
 Treat logs as event streams
 
+- Logs must be treated so that records can be lost - mission critical
+events does not belong in a log
+
 # 12. Admin processes
 Run admin/management tasks as one-off processes
 
