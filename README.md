@@ -55,7 +55,7 @@ features
 - Feature toggles can also be used to deploy functionality to a given
 subset of all users, e.g. 5%.
 
-# 15. Minimal local config
+# 15. Minimal local setup
 Minimize the local development machine config needed to run the app
 
 - Manual config to set up the development environment to start the app
@@ -76,3 +76,9 @@ Aim to create stateless applications and services
 
 - Storing application state in the application makes it difficult to
 redeploy. If possible, it should be stored in a database or similar.
+
+# 18. Autonomy
+Make your apps as similar to other apps in the same sphere as possible.
+
+- Always include a ./bin/start script or similar
+- Don't rely on people to run very specific commands from the command line
