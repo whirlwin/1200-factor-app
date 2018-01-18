@@ -43,11 +43,30 @@ Determine which key metrics your domain is concerned with
 # 14. Feature toggles
 Deploy critical functionality behind feature toggles
 
+- To ensure safe deployment, use feature toggles for new or existing
+features
+
+- Feature toggles can also be used to deploy functionality to a given
+subset of all users, e.g. 5%.
+
 # 15. Minimal local config
 Minimize the local development machine config needed to run the app
+
+- Manual config to set up the development environment to start the app
+locally should be kept at a minimum to not pollute the development
+the machine used
+
+- This can either be solved by using virtualization technology such as
+VirtualBox or container technology such as Docker
+
 
 # 16. Login providers
 Use a login provider that your target audience is a member of
 
+- Examples are Facebook, Google and Twitter
+
 # 17. Stateless 
 Aim to create stateless applications and services
+
+- Storing application state in the application makes it difficult to
+redeploy. If possible, it should be stored in a database or similar.
